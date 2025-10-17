@@ -1,3 +1,95 @@
-body{
-    background-color: black;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e0e0e0;
+}
+
+.main-container {
+    background: linear-gradient(135deg, #2d2d44 0%, #1e1e2e 100%);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+    max-width: 1200px;
+    overflow: hidden;
+    border: 1px solid #404040;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #667eea;
+    margin-bottom: 20px;
+}
+
+.tech-item {
+    background: #3a3a52;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #667eea;
+    color: #e0e0e0;
+}
+
+.progress {
+    height: 8px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    margin: 0 10px;
+}
+
+.contact-icon:hover {
+    transform: translateY(-5px);
+    color: white;
+}
+
+.github {
+    background: #333;
+}
+
+.email {
+    background: #ea4335;
+}
+
+.whatsapp {
+    background: #25d366;
+}
+
+.btn-projects {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    color: white;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+}
+
+.btn-projects:hover {
+    transform: translateY(-2px);
+    color: white;
 }
