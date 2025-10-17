@@ -1,24 +1,23 @@
 // Dados do portfólio - facilmente editáveis
 const portfolioData = {
     technologies: [
-        { name: 'JavaScript', experience: 85, years: '3 anos' },
-        { name: 'React', experience: 80, years: '2 anos' },
+        { name: 'JavaScript e TypeScript', experience: 85, years: '3 anos' },
         { name: 'HTML/CSS', experience: 90, years: '4 anos' },
-        { name: 'Node.js', experience: 70, years: '2 anos' },
-        { name: 'TypeScript', experience: 75, years: '1.5 anos' },
         { name: 'Bootstrap', experience: 85, years: '3 anos' }
     ],
     languages: [
         { name: 'Português', level: 'Nativo' },
-        { name: 'Inglês', level: 'Avançado' },
-        { name: 'Espanhol', level: 'Intermediário' }
+        { name: 'Inglês', level: 'Básico' },
+        { name: 'Espanhol', level: 'Básico' }
     ],
     courses: [
-        'JavaScript Moderno - Udemy',
-        'React Completo - Rocketseat',
-        'Node.js Fundamentals - Alura',
-        'TypeScript do Zero - Origamid',
-        'UI/UX Design - Figma'
+        'Desenvolvimento Web Completo - Udemy/Danki Code',
+        'Curso Web Moderno Completo com JavaScript - Udemy/Danki Code',
+        'Curso de JavaScript e TypeScript do básico ao avançado JS/TS - Udemy/Danki Code',
+        'Curso de Python 3 do básico ao avançado - Udemy/Danki Code',
+        'C# primeiros passos: Lógica de Programação e Algoritmos - Udemy/Danki Code',
+        'C# COMPLETO Programação Orientada a Objetos - Danki Code',
+        'Java COMPLETO Programação Orientada a Objetos - Udemy',
     ],
     projects: [
         {
@@ -30,8 +29,9 @@ const portfolioData = {
             technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
             challenges: 'Implementar a lógica de aparecimento aleatório dos mosquitos e o sistema de pontuação.',
             results: 'O jogo foi bem recebido pelos usuários, proporcionando entretenimento e melhorando minhas habilidades em desenvolvimento web.',
-            Image: './img/mata-mosquito.png',
-            link: 'https://tiagooliveira1998.github.io/mata-mosquito/'
+            image: './img/mataMosquito.jpg',
+            link: 'https://tiagofrontend-dev.github.io/MataMosquitoJogo/',
+            github: 'https://github.com/TiagoFrontEnd-Dev/MataMosquitoJogo'
         },
         {
             id: 2,
@@ -42,7 +42,9 @@ const portfolioData = {
             technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
             challenges: 'Implementar a lógica do jogo para permitir tanto o modo de dois jogadores quanto o modo contra o computador, além de criar uma interface responsiva.',
             results: 'O jogo foi bem recebido pelos usuários, proporcionando diversão e melhorando minhas habilidades em desenvolvimento web.',
-            image: './img'
+            image: './img/jogoXouO.jpg',
+            link: 'https://tiagofrontend-dev.github.io/MataMosquitoJogo/',
+            github: 'https://github.com/TiagoFrontEnd-Dev/MataMosquitoJogo'
         },
         {
             id: 3,
@@ -53,7 +55,9 @@ const portfolioData = {
             technologies: ['React Native', 'Firebase', 'Google Maps', 'Redux', 'Stripe'],
             challenges: 'Otimização de performance em dispositivos com recursos limitados',
             results: 'Mais de 10.000 downloads e avaliação 4.8 estrelas na Play Store',
-            image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200"%3E%3Crect width="300" height="200" fill="%2325d366"/%3E%3Crect x="100" y="30" width="100" height="140" fill="white" rx="15"/%3E%3Crect x="110" y="40" width="80" height="5" fill="%23e0e0e0" rx="2"/%3E%3Crect x="110" y="55" width="80" height="40" fill="%23667eea" rx="5"/%3E%3Crect x="110" y="105" width="35" height="6" fill="%23e0e0e0" rx="3"/%3E%3Crect x="110" y="120" width="50" height="6" fill="%23e0e0e0" rx="3"/%3E%3Ccircle cx="170" cy="145" r="12" fill="%2325d366"/%3E%3Ctext x="150" y="185" text-anchor="middle" fill="white" font-size="12" font-weight="bold"%3EMobile App%3C/text%3E%3C/svg%3E'
+            image: './img/jogoXouO.jpg',
+            link: 'https://tiagofrontend-dev.github.io/MataMosquitoJogo/',
+            github: 'https://github.com/TiagoFrontEnd-Dev/MataMosquitoJogo'
         },
         {
             id: 4,
@@ -64,7 +68,9 @@ const portfolioData = {
             technologies: ['Angular', '.NET Core', 'SQL Server', 'SignalR', 'Azure'],
             challenges: 'Arquitetura escalável para suportar milhares de usuários simultâneos',
             results: 'Aumento de 50% na produtividade da equipe de vendas',
-            image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200"%3E%3Crect width="300" height="200" fill="%23ff7043"/%3E%3Crect x="20" y="20" width="260" height="160" fill="white" rx="10"/%3E%3Crect x="40" y="40" width="220" height="8" fill="%23e0e0e0" rx="4"/%3E%3Crect x="40" y="60" width="180" height="6" fill="%23e0e0e0" rx="3"/%3E%3Crect x="40" y="75" width="200" height="6" fill="%23e0e0e0" rx="3"/%3E%3Crect x="40" y="100" width="60" height="40" fill="%23667eea" rx="5"/%3E%3Crect x="120" y="110" width="60" height="30" fill="%23764ba2" rx="5"/%3E%3Crect x="200" y="105" width="60" height="35" fill="%23ff7043" rx="5"/%3E%3Ctext x="150" y="170" text-anchor="middle" fill="%23ff7043" font-size="14" font-weight="bold"%3ECRM System%3C/text%3E%3C/svg%3E'
+            image: './img/jogoXouO.jpg',
+            link: 'https://tiagofrontend-dev.github.io/MataMosquitoJogo/',
+            github: 'https://github.com/TiagoFrontEnd-Dev/MataMosquitoJogo'
         },
         {
             id: 5,
@@ -75,7 +81,9 @@ const portfolioData = {
             technologies: ['HTML5', 'CSS3', 'JavaScript', 'GSAP', 'Webpack'],
             challenges: 'Criação de animações fluidas mantendo boa performance',
             results: 'Aumento de 200% no engajamento e tempo de permanência no site',
-            image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200"%3E%3Crect width="300" height="200" fill="%23ab47bc"/%3E%3Crect x="20" y="20" width="260" height="160" fill="white" rx="10"/%3E%3Ccircle cx="80" cy="70" r="20" fill="%23667eea"/%3E%3Crect x="120" y="55" width="100" height="8" fill="%23e0e0e0" rx="4"/%3E%3Crect x="120" y="70" width="80" height="6" fill="%23e0e0e0" rx="3"/%3E%3Crect x="120" y="85" width="60" height="6" fill="%23e0e0e0" rx="3"/%3E%3Crect x="40" y="110" width="40" height="30" fill="%23764ba2" rx="5"/%3E%3Crect x="100" y="115" width="40" height="25" fill="%2381c784" rx="5"/%3E%3Crect x="160" y="120" width="40" height="20" fill="%23ff7043" rx="5"/%3E%3Ctext x="150" y="170" text-anchor="middle" fill="%23ab47bc" font-size="12" font-weight="bold"%3EPortfolio%3C/text%3E%3C/svg%3E'
+            image: './img/jogoXouO.jpg',
+            link: 'https://tiagofrontend-dev.github.io/MataMosquitoJogo/',
+            github: 'https://github.com/TiagoFrontEnd-Dev/MataMosquitoJogo'
         },
         {
             id: 6,
@@ -86,8 +94,9 @@ const portfolioData = {
             technologies: ['Socket.io', 'Node.js', 'MongoDB', 'Redis', 'WebRTC'],
             challenges: 'Gerenciamento eficiente de conexões simultâneas e sincronização de dados',
             results: 'Suporte para mais de 1000 usuários simultâneos com latência inferior a 50ms',
-            image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200"%3E%3Crect width="300" height="200" fill="%2364b5f6"/%3E%3Crect x="20" y="20" width="260" height="160" fill="white" rx="10"/%3E%3Crect x="40" y="40" width="120" height="20" fill="%23667eea" rx="10"/%3E%3Crect x="180" y="70" width="80" height="20" fill="%23e0e0e0" rx="10"/%3E%3Crect x="40" y="100" width="100" height="20" fill="%23667eea" rx="10"/%3E%3Crect x="160" y="130" width="100" height="20" fill="%23e0e0e0" rx="10"/%3E%3Ccircle cx="250" cy="160" r="8" fill="%2325d366"/%3E%3Ctext x="150" y="185" text-anchor="middle" fill="%2364b5f6" font-size="12" font-weight="bold"%3EChat App%3C/text%3E%3C/svg%3E'
-        },
+            image: './img/jogoXouO.jpg',
+            link: 'https://tiagofrontend-dev.github.io/MataMosquitoJogo/',
+            github: 'https://github.com/TiagoFrontEnd-Dev/MataMosquitoJogo'        },
         {
             id: 7,
             title: 'API RESTful',
@@ -97,7 +106,9 @@ const portfolioData = {
             technologies: ['Express.js', 'MongoDB', 'JWT', 'Swagger', 'Jest'],
             challenges: 'Implementação de segurança robusta e otimização de consultas no banco',
             results: 'API capaz de processar 10.000 requisições por minuto com 99.9% de uptime',
-            image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200"%3E%3Crect width="300" height="200" fill="%23333"/%3E%3Crect x="20" y="20" width="260" height="160" fill="white" rx="10"/%3E%3Crect x="40" y="40" width="220" height="6" fill="%2325d366" rx="3"/%3E%3Crect x="40" y="55" width="180" height="6" fill="%23667eea" rx="3"/%3E%3Crect x="40" y="70" width="200" height="6" fill="%23ff7043" rx="3"/%3E%3Crect x="40" y="85" width="160" height="6" fill="%23764ba2" rx="3"/%3E%3Crect x="40" y="110" width="80" height="30" fill="%23333" rx="5"/%3E%3Ctext x="80" y="130" text-anchor="middle" fill="white" font-size="10" font-weight="bold"%3EAPI%3C/text%3E%3Ctext x="150" y="170" text-anchor="middle" fill="%23333" font-size="12" font-weight="bold"%3EREST API%3C/text%3E%3C/svg%3E'
+            image: './img/jogoXouO.jpg',
+            link: 'https://tiagofrontend-dev.github.io/MataMosquitoJogo/',
+            github: 'https://github.com/TiagoFrontEnd-Dev/MataMosquitoJogo'
         },
         {
             id: 8,
@@ -108,7 +119,9 @@ const portfolioData = {
             technologies: ['PWA', 'Service Workers', 'IndexedDB', 'Web Push', 'Canvas API'],
             challenges: 'Implementação de funcionalidades offline complexas e sincronização de dados',
             results: 'Aumento de 80% no engajamento dos alunos e 95% de satisfação',
-            image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200"%3E%3Crect width="300" height="200" fill="%2381c784"/%3E%3Crect x="20" y="20" width="260" height="160" fill="white" rx="10"/%3E%3Crect x="40" y="40" width="220" height="8" fill="%23e0e0e0" rx="4"/%3E%3Crect x="40" y="60" width="100" height="60" fill="%23667eea" rx="5"/%3E%3Cpolygon points="70,80 90,90 70,100" fill="white"/%3E%3Crect x="160" y="60" width="100" height="20" fill="%23e0e0e0" rx="3"/%3E%3Crect x="160" y="90" width="80" height="15" fill="%23e0e0e0" rx="3"/%3E%3Crect x="160" y="110" width="60" height="10" fill="%2381c784" rx="5"/%3E%3Ctext x="150" y="170" text-anchor="middle" fill="%2381c784" font-size="12" font-weight="bold"%3EE-learning%3C/text%3E%3C/svg%3E'
+            image: './img/jogoXouO.jpg',
+            link: 'https://tiagofrontend-dev.github.io/MataMosquitoJogo/',
+            github: 'https://github.com/TiagoFrontEnd-Dev/MataMosquitoJogo'
         },
         {
             id: 9,
@@ -119,7 +132,9 @@ const portfolioData = {
             technologies: ['Web3.js', 'Ethereum', 'MetaMask', 'Solidity', 'IPFS'],
             challenges: 'Implementação de segurança máxima e interface intuitiva para blockchain',
             results: 'Mais de $1M em transações processadas com zero incidentes de segurança',
-            image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200"%3E%3Crect width="300" height="200" fill="%23f39c12"/%3E%3Crect x="20" y="20" width="260" height="160" fill="white" rx="10"/%3E%3Ccircle cx="150" cy="80" r="25" fill="%23f39c12"/%3E%3Ctext x="150" y="85" text-anchor="middle" fill="white" font-size="16" font-weight="bold"%3E₿%3C/text%3E%3Crect x="80" y="120" width="140" height="8" fill="%23e0e0e0" rx="4"/%3E%3Crect x="100" y="135" width="100" height="6" fill="%23e0e0e0" rx="3"/%3E%3Crect x="120" y="150" width="60" height="15" fill="%23f39c12" rx="7"/%3E%3Ctext x="150" y="185" text-anchor="middle" fill="%23f39c12" font-size="12" font-weight="bold"%3ECrypto Wallet%3C/text%3E%3C/svg%3E'
+            image: './img/jogoXouO.jpg',
+            link: 'https://tiagofrontend-dev.github.io/MataMosquitoJogo/',
+            github: 'https://github.com/TiagoFrontEnd-Dev/MataMosquitoJogo'
         },
         {
             id: 10,
@@ -130,7 +145,9 @@ const portfolioData = {
             technologies: ['MQTT', 'WebSockets', 'InfluxDB', 'Grafana', 'TensorFlow.js'],
             challenges: 'Processamento de milhares de sensores em tempo real com baixa latência',
             results: 'Redução de 60% no tempo de resposta a falhas e economia de 30% em energia',
-            image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200"%3E%3Crect width="300" height="200" fill="%23e91e63"/%3E%3Crect x="20" y="20" width="260" height="160" fill="white" rx="10"/%3E%3Ccircle cx="80" cy="70" r="15" fill="%2325d366"/%3E%3Ccircle cx="150" cy="70" r="15" fill="%23ff7043"/%3E%3Ccircle cx="220" cy="70" r="15" fill="%23667eea"/%3E%3Cpath d="M80 85 Q115 100 150 85" stroke="%23e0e0e0" stroke-width="2" fill="none"/%3E%3Cpath d="M150 85 Q185 100 220 85" stroke="%23e0e0e0" stroke-width="2" fill="none"/%3E%3Crect x="60" y="120" width="180" height="30" fill="%23f5f5f5" rx="5"/%3E%3Crect x="70" y="130" width="40" height="10" fill="%2325d366" rx="2"/%3E%3Crect x="130" y="130" width="60" height="10" fill="%23ff7043" rx="2"/%3E%3Ctext x="150" y="175" text-anchor="middle" fill="%23e91e63" font-size="12" font-weight="bold"%3EIoT Monitor%3C/text%3E%3C/svg%3E'
+            image: './img/jogoXouO.jpg',
+            link: 'https://tiagofrontend-dev.github.io/MataMosquitoJogo/',
+            github: 'https://github.com/TiagoFrontEnd-Dev/MataMosquitoJogo'
         }
     ]
 };
@@ -163,3 +180,111 @@ function renderLanguages() {
                 </div>
             `).join('');
 }
+
+// Função para renderizar cursos
+function renderCourses() {
+    const container = document.getElementById('coursesContainer');
+    container.innerHTML = portfolioData.courses.map(course => `
+                <div class="course-item">
+                    <i class="fas fa-certificate text-primary me-2"></i>
+                    ${course}
+                </div>
+            `).join('');
+}
+
+// Função para renderizar lista de projetos
+function renderProjectsList() {
+    const container = document.getElementById('projectsList');
+    container.innerHTML = portfolioData.projects.map(project => `
+                <div class="col-6 mb-3">
+                    <div class="project-card" onclick="selectProject(${project.id})">
+                        <img src="${project.image}" alt="${project.title}" class="project-img">
+                        <div class="p-3">
+                            <h6 class="fw-bold mb-1">${project.title}</h6>
+                            <p class="text-muted small mb-2">${project.subtitle}</p>
+                            <p class="small mb-0">${project.shortDescription}</p>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+}
+
+// Função para selecionar projeto
+function selectProject(projectId) {
+    const project = portfolioData.projects.find(p => p.id === projectId);
+    if (!project) return;
+
+    // Remover classe active de todos os cards
+    document.querySelectorAll('.project-card').forEach(card => {
+        card.classList.remove('active');
+    });
+
+    // Adicionar classe active ao card selecionado
+    event.currentTarget.classList.add('active');
+
+    // Atualizar projeto principal
+    const mainCard = document.getElementById('mainProjectCard');
+    mainCard.innerHTML = `
+                <img src="${project.image}" alt="${project.title}" class="main-project-img">
+                <h3 class="fw-bold mb-2">${project.title}</h3>
+                <p class="mb-3 opacity-75">${project.subtitle}</p>
+                
+                <div class="mb-4">
+                    ${project.technologies.map(tech => `<span class="tech-badge">${tech}</span>`).join('')}
+                </div>
+                
+                <div class="mb-4">
+                    <h5 class="fw-bold mb-2">📋 Descrição</h5>
+                    <p>${project.fullDescription}</p>
+                </div>
+                
+                <div class="mb-4">
+                    <h5 class="fw-bold mb-2">🎯 Desafios</h5>
+                    <p>${project.challenges}</p>
+                </div>
+                
+                <div class="mb-4">
+                    <h5 class="fw-bold mb-2">🏆 Resultados</h5>
+                    <p>${project.results}</p>
+                </div>
+                
+              <div class="text-center">
+            <a href="${project.link}" class="btn btn-light btn-lg me-3" target="_blank">
+                <i class="fas fa-external-link-alt me-2"></i>Ver Projeto
+            </a>
+            
+            <a href="${project.github}" class="btn btn-outline-light btn-lg" target="_blank">
+                <i class="fab fa-github me-2"></i>Código
+            </a>
+        </div>
+
+            `;
+}
+
+// Funções de navegação
+function showProjectsPage() {
+    document.getElementById('mainPage').classList.remove('active');
+    document.getElementById('projectsPage').classList.add('active');
+    renderProjectsList();
+}
+
+function showMainPage() {
+    document.getElementById('projectsPage').classList.remove('active');
+    document.getElementById('mainPage').classList.add('active');
+}
+
+// Inicializar página
+document.addEventListener('DOMContentLoaded', function () {
+    renderTechnologies();
+    renderLanguages();
+    renderCourses();
+
+    
+    const projectsListContainer = document.getElementById('coursesContainer', 'projectsList');
+    
+    if (projectsListContainer) {
+        projectsListContainer.style.maxHeight = '30vh'; 
+        projectsListContainer.style.overflowY = 'auto';
+        projectsListContainer.style.paddingRight = '10px'; 
+    }
+});
