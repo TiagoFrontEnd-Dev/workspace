@@ -207,3 +207,105 @@ body {
         height: 150px;
     }
 }
+
+@media (max-width: 414px) {
+
+    /* Ajustando o corpo */
+    body {
+        font-size: 14px; /* Menor tamanho de fonte para melhorar a leitura em telas pequenas */
+        padding: 10px;
+    }
+
+    /* Ajustando os containers principais */
+    .main-container {
+        margin: 20px;
+        padding: 15px; /* Menos padding para maximizar o espaço */
+        border-radius: 12px; /* Bordas mais suaves */
+    }
+
+    .projects-container {
+        margin: 20px auto;
+        padding: 10px; /* Menos padding nas laterais */
+    }
+
+    /* Ajustando a imagem do perfil */
+    .profile-img {
+        width: 120px; /* Diminuindo o tamanho da imagem */
+        height: 120px;
+        margin-bottom: 15px;
+    }
+
+    /* Ajuste dos itens de tecnologia */
+    .tech-item {
+        padding: 12px; /* Menos padding para otimizar o espaço */
+    }
+
+    .tech-badge {
+        font-size: 0.7rem; /* Tamanho de texto menor */
+        padding: 4px 10px;
+    }
+
+    /* Ajuste dos ícones de contato */
+    .contact-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 1.1rem; /* Menor tamanho de ícone */
+        margin: 0 5px; /* Menos espaço entre ícones */
+    }
+
+    /* Botões de projetos */
+    .btn-projects {
+        padding: 10px 25px; /* Botão mais compacto */
+        font-size: 0.9rem; /* Tamanho de texto reduzido */
+    }
+
+    /* Ajustando os cards de projetos */
+    .project-card {
+        margin-bottom: 15px; /* Menos espaço entre os cards */
+        padding: 15px;
+    }
+
+    .project-img {
+        height: 120px; /* Imagens menores nos cards */
+    }
+
+    .main-project-img {
+        height: 250px; /* Imagem principal ajustada */
+    }
+
+    /* Ajuste na disposição das páginas */
+    .page {
+        padding: 0 10px;
+    }
+
+    /* Ajuste nas imagens de projetos */
+    .project-card img {
+        height: 150px; /* Imagens menores no card */
+    }
+
+    .project-card:hover {
+        transform: translateY(0); /* Sem efeito de elevação para melhor usabilidade em telas pequenas */
+    }
+
+    /* Ajuste da grid de projetos */
+    .projects-container {
+        display: block; /* Mudando para bloqueio para garantir que os cards ocupem toda a largura */
+    }
+
+    /* Ajuste do texto de título */
+    .tech-item, .course-item, .language-item {
+        font-size: 0.9rem; /* Texto menor para caber melhor na tela */
+    }
+
+    .back-btn {
+        padding: 8px 20px; /* Botão menor */
+        font-size: 0.9rem;
+    }
+
+    /* Ajustes gerais para melhorar a leitura e usabilidade */
+    .main-container, .projects-container {
+        max-width: 100%; /* Garante que o conteúdo ocupe a tela toda */
+        border-radius: 12px;
+        box-shadow: none; /* Retirar sombra para evitar sobrecarga visual */
+    }
+}

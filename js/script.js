@@ -283,7 +283,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const projectsListContainer = document.getElementById('coursesContainer', 'projectsList');
     
     if (projectsListContainer) {
-        projectsListContainer.style.maxHeight = '30vh'; 
+        projectsListContainer.style.maxHeight = '70vh'; 
         projectsListContainer.style.overflowY = 'auto';
         projectsListContainer.style.paddingRight = '10px'; 
     }
